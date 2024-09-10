@@ -1,6 +1,6 @@
 'use client';
 import React, { useState, useEffect } from 'react';
-import { Layout, Menu, Box, X } from 'lucide-react';
+import { Layout, Box, X } from 'lucide-react';
 import GeometricShapes from '@/components/GeometricShapes';
 import Flex from '@/components/Flex';
 import Grid from '@/components/Grid';

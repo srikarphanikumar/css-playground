@@ -42,7 +42,10 @@ const Card: React.FC<CardProps> = ({ id, title, children, html, className }) => 
     const toggleView = () => setShowCode(!showCode);
 
     return (
-        <div className="border border-gray-700 rounded-lg p-4 shadow-md flex flex-col h-[400px] bg-gray-800 text-white">
+        <div
+            className="border border-gray-700 rounded-lg p-4 shadow-md flex flex-col h-[400px] bg-gray-800 text-white"
+            id={id}
+        >
             <div className="flex justify-between items-center mb-4">
                 <h3 className="text-lg font-semibold">{title}</h3>
                 <button
